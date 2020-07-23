@@ -1,0 +1,5 @@
+https://gcd-compliance-dev.maersk-digital.net/v1/compliance/getBolByCompId?bolNumber=GCS545233&complianceId=FIIMP-INXPSVTYTAI541GC6EESEG
+
+https://gcd-billoflading-dev.maersk-digital.net/v1/billoflading/getBolById/
+
+https://gcd-orchestration.dev.maersk-digital.net/v1/routeEnrichment
