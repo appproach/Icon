@@ -1,0 +1,14 @@
+URI : https://gcd-compliance-dev.maersk-digital.net/v1/compliance/manifestation (POST)
+Request Body : {
+"transportDocumentNumber": "GCS00A166",
+"vesselCode": "1VM",
+"arrivalVoyageNumber": "004E",
+"complianceReceiverPort": "DKAARPT",
+"mrnCustomsNumber": "TestMRN1",
+"departureVoyageNumber": "949W",
+"dischargePort": "DEBRVTM",
+"complianceStatus": "SENT_CUSTOMS",
+"complianceLoadStatus": "Load OK",
+"customsResponseReason": "",
+"sentTimeStamp": "2020-07-10 12:33:04",
+"entryPortEta": "2020-07-10 12:33:04"
