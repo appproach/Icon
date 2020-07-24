@@ -1,0 +1,239 @@
+{
+  "bolNumber": "200002693",
+  "bolInstanceId": "30XCASB3N09KB",
+  "isIVCReceived": true,
+  "operatorCode": "MSL",
+  "isHitchment": false,
+  "isHouse": false,
+  "houseBills": [],
+  "isDelete": null,
+  "isSplit": null,
+  "isCompleted": null,
+  "archiveInd": null,
+  "isCancel": null,
+  "isImportShipmentBOL": false,
+  "originalBOLNumberForSplit": null,
+  "loadPortRouteSequence": 1,
+  "isTransportDocLevelPrinting": false,
+  "scacCode": "MAEU",
+  "updateStructTime": 1595379981705,
+  "createdDate": null,
+  "createdBy": null,
+  "lastModifiedDate": null,
+  "modifiedBy": null,
+  "placeOfReceipt": "DEBRV",
+  "placeOfDelivery": "NLROT",
+  "cargoOrigin": null,
+  "cargoOriginTranslated": null,
+  "cargoDestination": null,
+  "cargoDestinationTranslated": null,
+  "printedPlaceOfReceipt": null,
+  "printedPlaceOfDelivery": null,
+  "printedLoadPortValues": null,
+  "printedDischargePortValue": null,
+  "placeOfIssue": null,
+  "dateOfIssue": null,
+  "shippedOnBoardDate": null,
+  "billType": "TPDoc, negotiable, received for shipment",
+  "references": null,
+  "shipments": [
+    {
+      "shipmentNumber": "200002693",
+      "shipmentVersionInstance": "2XRMTQB3N08KB",
+      "receiptCargoMode": "CY",
+      "receiptDeliveryMode": "CY",
+      "isDangerous": false,
+      "isORR": false,
+      "operationalReferenceNumber": null,
+      "businessUnitCode": "DKCPHMSL1",
+      "businessEmail": "Jasmeen.Wassan1@maersk.com",
+      "parties": [
+        {
+          "cmdCustomerId": "DK00031718",
+          "docAddress": "GCSS INVOICE CNEE DAMPFAERGEVEJ 21-23 DK- 2100 COPENHAGEN Copenhagen 2100 Denmark",
+          "roleType": "SC",
+          "roleDescription": "Switched Consignee",
+          "customerInformation": null
+        },
+        {
+          "cmdCustomerId": "DK00031718",
+          "docAddress": "GCSS INVOICE CNEE DAMPFAERGEVEJ 21-23 DK- 2100 COPENHAGEN Copenhagen 2100 Denmark",
+          "roleType": "DC",
+          "roleDescription": "Doc Consignee",
+          "customerInformation": null
+        },
+        {
+          "cmdCustomerId": "DK00031718",
+          "docAddress": "GCSS INVOICE CNEE DAMPFAERGEVEJ 21-23 DK- 2100 COPENHAGEN Copenhagen 2100 Denmark",
+          "roleType": "DS",
+          "roleDescription": "Doc Shipper",
+          "customerInformation": null
+        },
+        {
+          "cmdCustomerId": "DK00031718",
+          "docAddress": "GCSS INVOICE CNEE DAMPFAERGEVEJ 21-23 DK- 2100 COPENHAGEN Copenhagen 2100 Denmark",
+          "roleType": "SS",
+          "roleDescription": "Switched Shipper",
+          "customerInformation": null
+        },
+        {
+          "cmdCustomerId": "DK00031718",
+          "docAddress": "GCSS INVOICE CNEE DAMPFAERGEVEJ 21-23 DK- 2100 COPENHAGEN Copenhagen 2100 Denmark",
+          "roleType": "FNP",
+          "roleDescription": "First Notify Party",
+          "customerInformation": null
+        },
+        {
+          "cmdCustomerId": "DK00031718",
+          "docAddress": "GCSS INVOICE CNEE DAMPFAERGEVEJ 21-23 DK- 2100 COPENHAGEN Copenhagen 2100 Denmark",
+          "roleType": "SH",
+          "roleDescription": "Shipper",
+          "customerInformation": null
+        },
+        {
+          "cmdCustomerId": "DK00031718",
+          "docAddress": "GCSS INVOICE CNEE DAMPFAERGEVEJ 21-23 DK- 2100 COPENHAGEN Copenhagen 2100 Denmark",
+          "roleType": "CN",
+          "roleDescription": "Consignee",
+          "customerInformation": null
+        }
+      ],
+      "houseBills": [],
+      "equipments": [
+        "LSJT9RB3N09KB"
+      ],
+      "cargos": [
+        "UDDU9RB3N09KB"
+      ],
+      "route": {
+        "instanceId": "PEOCYQB3N08KB",
+        "routeLinks": [
+          {
+            "transportMode": "MVS",
+            "movementType": "FD",
+            "vesselCode": "I3J",
+            "vesselIMO": null,
+            "routeLinkSequence": 1,
+            "importVoyage": "",
+            "exportVoyage": "202A",
+            "serviceCode": "278",
+            "waterLandMode": "W",
+            "isOutOfContractScope": false,
+            "routeStartPoint": {
+              "geoCode": "2U4AD56P1LNIY",
+              "siteName": "NTB North Sea Terminal Bremerhaven",
+              "pointSequence": "1",
+              "siteCode": "DEBRVTM",
+              "cityCode": "DEBRV",
+              "country": "Germany"
+            },
+            "routeEndPoint": {
+              "geoCode": "2LME4YKE32WZJ",
+              "siteName": "APM 1 Terminals Rotterdam",
+              "pointSequence": "2",
+              "siteCode": "NLROT01",
+              "cityCode": "NLROT",
+              "country": "Netherlands"
+            },
+            "isTerminalMismatch": null,
+            "terminalMismatchErrorDesc": null,
+            "compliances": null
+          }
+        ]
+      },
+      "shipmentFreights": null
+    }
+  ],
+  "equipments": [
+    {
+      "instanceId": "LSJT9RB3N09KB",
+      "isoCode": "22B0",
+      "equipmentGrossWeightKgs": "3175.748",
+      "equipmentGrossWeightLbs": "7001.325",
+      "verifiedGrossMassKgs": null,
+      "verifiedGrossMassLbs": null,
+      "customerWeightKgs": "725.748",
+      "customerWeightLbs": "1600.000",
+      "tareWeightKgs": "2450.000",
+      "totalVolume": "45.3070",
+      "totalPackageCount": "1",
+      "totalWeightKgs": "3175.748",
+      "totalWeightLbs": "7001.325",
+      "isShortShipped": true,
+      "isShipperOwned": true,
+      "isSOCEmpty": null,
+      "containerType": "BULK",
+      "containerSize": "20",
+      "equipmentNoWhenBooked": null,
+      "operationalEquipmentNumber": "454464456",
+      "cargoList": [
+        "UDDU9RB3N09KB"
+      ],
+      "shipments": [
+        "2XRMTQB3N08KB"
+      ],
+      "equipmentFreights": null,
+      "seals": null
+    }
+  ],
+  "cargos": [
+    {
+      "instanceId": "UDDU9RB3N09KB",
+      "commodityCode": "002804",
+      "commodityDescription": "Paperboard, KLB, Kraft Liner board, linerboard, newsprint, mail",
+      "sequence": 1,
+      "cargoClassification": null,
+      "weightKgs": "725.748",
+      "weightLbs": "1600.000",
+      "hsCode": "215478",
+      "measureCbm": "45.3070",
+      "reeferTemperatureCelsius": null,
+      "freightPaymentMethod": "Prepaid",
+      "equipments": [
+        "LSJT9RB3N09KB"
+      ],
+      "descriptions": [
+        {
+          "instanceId": "NKVU9RB3N09KB",
+          "cargoDesc": "Customer Defined",
+          "cargoDescText": "gcss",
+          "tpdLevelInd": "N"
+        },
+        {
+          "instanceId": "9M1GA3B3N09KB",
+          "cargoDesc": "Marks and Numbers",
+          "cargoDescText": "46546",
+          "tpdLevelInd": "N"
+        },
+        {
+          "instanceId": "XFOHA3B3N09KB",
+          "cargoDesc": "S/I Commodity Description",
+          "cargoDescText": "demo",
+          "tpdLevelInd": "N"
+        }
+      ],
+      "cargoPackages": [
+        {
+          "instanceId": "RRJV9RB3N09KB",
+          "packageCount": "1",
+          "packageDescriptionType": "Standard Cargo Package",
+          "packageStyleAltText": "box",
+          "cargoPackageType": null
+        }
+      ],
+      "equipmentStuffings": [
+        {
+          "instanceId": "I0IAASB3N09KB",
+          "packageCount": "1",
+          "equipmentId": "LSJT9RB3N09KB",
+          "weightKgs": "725.748",
+          "weightLbs": "1600.000",
+          "isOOG": "N",
+          "volumeCbm": "45.3070",
+          "measureCbm": "45.3070"
+        }
+      ],
+      "dangerousDetails": []
+    }
+  ]
+}
