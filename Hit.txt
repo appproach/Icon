@@ -1,0 +1,9 @@
+curl --location --request POST 'https://gcd-compliance-dev.maersk-digital.net/v1/compliance/getComplianceByStatus' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "complianceId": "DKIMP-XFVOOA7QTAMU0OX6NVAGPQ",
+    "stage" : "Original",
+    "statuses" : [
+        "Ready For Submission"
+    ]
+}'
