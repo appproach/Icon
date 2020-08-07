@@ -1,0 +1,388 @@
+{
+  "eventType": "Issue_Amended_Verify_Copy_of_TPDOC_Closed",
+  "key": "GCS00S584",
+  "data": {
+  "bolNumber": "GCS00S584",
+  "bolInstanceId": "W8BB0OSGO08KB",
+  "isIVCReceived": true,
+  "operatorCode": "MLL",
+  "isHitchment": false,
+  "isHouse": false,
+  "isHouseMaster": null,
+  "houseBills": [],
+  "isDelete": null,
+  "isSplit": null,
+  "isCompleted": null,
+  "archiveInd": null,
+  "isCancel": null,
+  "isImportShipmentBOL": false,
+  "originalBOLNumberForSplit": null,
+  "loadPortRouteSequence": 1,
+  "isTransportDocLevelPrinting": false,
+  "scacCode": "MAEI",
+  "updateStructTime": 1595965365546,
+  "createdDate": null,
+  "createdBy": null,
+  "lastModifiedDate": null,
+  "modifiedBy": null,
+  "placeOfReceipt": "DKAAR",
+  "placeOfDelivery": "DEBRV",
+  "cargoOrigin": null,
+  "cargoOriginTranslated": null,
+  "cargoDestination": null,
+  "cargoDestinationTranslated": null,
+  "printedPlaceOfReceipt": null,
+  "printedPlaceOfDelivery": null,
+  "printedLoadPortValues": null,
+  "printedDischargePortValue": null,
+  "placeOfIssue": null,
+  "dateOfIssue": null,
+  "shippedOnBoardDate": null,
+  "billType": "Negotiable Bill",
+  "billTypeCode": "NB",
+  "references": null,
+  "shipments": [
+    {
+      "shipmentNumber": "GCS00S584",
+      "shipmentVersionInstance": "UUQBVOSGO08KB",
+      "receiptCargoMode": "CY",
+      "receiptDeliveryMode": "CY",
+      "isDangerous": false,
+      "isORR": false,
+      "operationalReferenceNumber": null,
+      "businessUnitCode": "DKCPHMSL1",
+      "businessEmail": "Jasmeen.Wassan1@maersk.com",
+      "parties": [
+        {
+          "cmdCustomerId": "DK00031718",
+          "docAddress": "Electronics Germany",
+          "roleType": "SH",
+          "roleDescription": "Shipper",
+          "customerInformation": null
+        },
+        {
+          "cmdCustomerId": "DK00031718",
+          "docAddress": "Electronics India",
+          "roleType": "CN",
+          "roleDescription": "Consignee",
+          "customerInformation": null
+        }
+      ],
+      "houseBills": [],
+      "equipments": [
+        "T75SS6RHO08KB",
+        "KZUOZOSGO08KB",
+        "BRVLZOSGO08KB"
+      ],
+      "cargos": [
+        "LKWJZOSGO08KB",
+        "7B6HZOSGO08KB",
+        "3TIVS6RHO08KB"
+      ],
+      "route": {
+        "instanceId": "JW8EZOSGO08KB",
+         "routeLinks": [
+                    {
+                        "transportMode": "MVS",
+                        "movementType": "DT",
+                        "vesselCode": "1VM",
+                        "vesselIMO": null,
+                        "routeLinkSequence": 1,
+                        "inboundVoyageNumber": "004E",
+                        "outboundVoyageNumber": "949W",
+                        "serviceCode": "SLB",
+                        "waterLandMode": "W",
+                        "isOutOfContractScope": false,
+                        "routeStartPoint": {
+                            "geoCode": "0MZSJ9SROEGKD",
+                            "siteName": "Aarhus APM Termina",
+                            "pointSequence": "1",
+                            "siteCode": "DKAARPT",
+                            "cityCode": "DKAAR",
+                            "country": "Denmark"
+                        },
+            "routeEndPoint": {
+                            "geoCode": "2LME4YKE32WZJ",
+                            "siteName": "PSA Singapore Terminal",
+                            "pointSequence": "2",
+                            "siteCode": "DEBRVTM",
+                            "cityCode": "Bremerhaven",
+                            "country": "Germany"
+                        },
+            "isTerminalMismatch": null,
+            "terminalMismatchErrorDesc": null,
+            "compliances": null
+          }
+        ]
+      },
+      "shipmentFreights": null
+    }
+  ],
+  "equipments": [
+    {
+      "instanceId": "T75SS6RHO08KB",
+      "isoCode": "22G1",
+      "equipmentGrossWeightKgs": "2120.000",
+      "equipmentGrossWeightLbs": "4673.800",
+      "verifiedGrossMassKgs": "3000",
+      "verifiedGrossMassLbs": "3500",
+      "customerWeightKgs": "100.000",
+      "customerWeightLbs": "220.462",
+      "tareWeightKgs": "2020.000",
+      "totalVolume": "100.0000",
+      "totalPackageCount": "1",
+      "totalWeightKgs": "2120.000",
+      "totalWeightLbs": "4673.800",
+      "isShortShipped": true,
+      "isShipperOwned": true,
+      "isOOG": false,
+      "isSOCEmpty": null,
+      "containerType": "DRY",
+      "containerSize": "20",
+      "equipmentNoWhenBooked": null,
+      "operationalEquipmentNumber": "R",
+      "cargoList": [
+        "3TIVS6RHO08KB"
+      ],
+      "shipments": [
+        "UUQBVOSGO08KB"
+      ],
+      "equipmentFreights": null,
+     "seals": [
+         {
+            "sealNumber": "Test124",
+            "sealName": "Carrier Seal"
+          }
+        ]
+    },
+    {
+      "instanceId": "KZUOZOSGO08KB",
+      "isoCode": "22G1",
+      "equipmentGrossWeightKgs": "2120.000",
+      "equipmentGrossWeightLbs": "4673.800",
+      "verifiedGrossMassKgs": "3200",
+      "verifiedGrossMassLbs": "4500",
+      "customerWeightKgs": "100.000",
+      "customerWeightLbs": "220.462",
+      "tareWeightKgs": "2020.000",
+      "totalVolume": "100.0000",
+      "totalPackageCount": "1",
+      "totalWeightKgs": "2120.000",
+      "totalWeightLbs": "4673.800",
+      "isShortShipped": true,
+      "isShipperOwned": true,
+      "isOOG": false,
+      "isSOCEmpty": null,
+      "containerType": "DRY",
+      "containerSize": "20",
+      "equipmentNoWhenBooked": null,
+      "operationalEquipmentNumber": "Q",
+      "cargoList": [
+        "LKWJZOSGO08KB"
+      ],
+      "shipments": [
+        "UUQBVOSGO08KB"
+      ],
+      "equipmentFreights": null,
+     "seals": [
+         {
+            "sealNumber": "Test124",
+            "sealName": "Carrier Seal"
+          }
+        ]
+    },
+    {
+      "instanceId": "BRVLZOSGO08KB",
+      "isoCode": "22G1",
+      "equipmentGrossWeightKgs": "2120.000",
+      "equipmentGrossWeightLbs": "4673.800",
+      "verifiedGrossMassKgs": "3000",
+      "verifiedGrossMassLbs": "4300",
+      "customerWeightKgs": "100.000",
+      "customerWeightLbs": "220.462",
+      "tareWeightKgs": "2020.000",
+      "totalVolume": "100.0000",
+      "totalPackageCount": "1",
+      "totalWeightKgs": "2120.000",
+      "totalWeightLbs": "4673.800",
+      "isShortShipped": true,
+      "isShipperOwned": true,
+      "isOOG": false,
+      "isSOCEmpty": null,
+      "containerType": "DRY",
+      "containerSize": "20",
+      "equipmentNoWhenBooked": "POT200",
+      "operationalEquipmentNumber": "POT200",
+      "cargoList": [
+        "7B6HZOSGO08KB"
+      ],
+      "shipments": [
+        "UUQBVOSGO08KB"
+      ],
+      "equipmentFreights": null,
+      "seals": [
+         {
+            "sealNumber": "Test124",
+            "sealName": "Carrier Seal"
+          }
+        ]
+    }
+  ],
+  "cargos": [
+    {
+      "instanceId": "LKWJZOSGO08KB",
+      "commodityCode": "002903",
+      "commodityDescription": "Essential oils",
+      "sequence": 1,
+      "cargoClassification": null,
+      "weightKgs": "100.000",
+      "weightLbs": "220.462",
+      "hsCode": "440044",
+      "measureCbm": "100.0000",
+      "reeferTemperatureCelsius": null,
+      "freightPaymentMethod": "Collect",
+      "equipments": [
+        "KZUOZOSGO08KB"
+      ],
+      "descriptions": [
+        {
+          "instanceId": "L8CKZOSGO08KB",
+          "cargoDesc": "S/I Commodity Description",
+          "cargoDescText": "200003286",
+          "tpdLevelInd": "N"
+        },
+        {
+          "instanceId": "ZQ5KZOSGO08KB",
+          "cargoDesc": "Marks and Numbers",
+          "cargoDescText": "200003286",
+          "tpdLevelInd": "N"
+        }
+      ],
+      "cargoPackages": [
+        {
+          "instanceId": "V51JZOSGO08KB",
+          "packageCount": "1",
+          "packageDescriptionType": "Standard Cargo Package",
+          "packageStyleAltText": "BOXXES",
+          "cargoPackageType": null
+        }
+      ],
+      "equipmentStuffings": [
+        {
+          "instanceId": "EB4TZOSGO08KB",
+          "packageCount": "1",
+          "equipmentId": "KZUOZOSGO08KB",
+          "weightKgs": "100.000",
+          "weightLbs": "220.462",
+          "volumeCbm": "100.0000",
+          "measureCbm": "100.0000"
+        }
+      ],
+      "dangerousDetails": []
+    },
+    {
+      "instanceId": "7B6HZOSGO08KB",
+      "commodityCode": "002803",
+      "commodityDescription": "Wastepaper",
+      "sequence": 2,
+      "cargoClassification": null,
+      "weightKgs": "100.000",
+      "weightLbs": "220.462",
+      "hsCode": "440044",
+      "measureCbm": "100.0000",
+      "reeferTemperatureCelsius": null,
+      "freightPaymentMethod": "Collect",
+      "equipments": [
+        "BRVLZOSGO08KB"
+      ],
+      "descriptions": [
+        {
+          "instanceId": "NUZIZOSGO08KB",
+          "cargoDesc": "S/I Commodity Description",
+          "cargoDescText": "200003286200003295",
+          "tpdLevelInd": "N"
+        },
+        {
+          "instanceId": "CNJJZOSGO08KB",
+          "cargoDesc": "Marks and Numbers",
+          "cargoDescText": "200003286",
+          "tpdLevelInd": "N"
+        }
+      ],
+      "cargoPackages": [
+        {
+          "instanceId": "62MIZOSGO08KB",
+          "packageCount": "1",
+          "packageDescriptionType": "Standard Cargo Package",
+          "packageStyleAltText": "BOXXES",
+          "cargoPackageType": null
+        }
+      ],
+      "equipmentStuffings": [
+        {
+          "instanceId": "10LTZOSGO08KB",
+          "packageCount": "1",
+          "equipmentId": "BRVLZOSGO08KB",
+          "weightKgs": "100.000",
+          "weightLbs": "220.462",
+          "volumeCbm": "100.0000",
+          "measureCbm": "100.0000"
+        }
+      ],
+      "dangerousDetails": []
+    },
+    {
+      "instanceId": "3TIVS6RHO08KB",
+      "commodityCode": "003302",
+      "commodityDescription": "Prepared feathers and down and articles",
+      "sequence": 3,
+      "cargoClassification": null,
+      "weightKgs": "100.000",
+      "weightLbs": "220.462",
+      "hsCode": "123456",
+      "measureCbm": "100.0000",
+      "reeferTemperatureCelsius": null,
+      "freightPaymentMethod": "Collect",
+      "equipments": [
+        "T75SS6RHO08KB"
+      ],
+      "descriptions": [
+        {
+          "instanceId": "EW0ET8RHO09KB",
+          "cargoDesc": "Marks and Numbers",
+          "cargoDescText": "200003295",
+          "tpdLevelInd": "N"
+        },
+        {
+          "instanceId": "LVFIT8RHO09KB",
+          "cargoDesc": "S/I Commodity Description",
+          "cargoDescText": "200003295200003295",
+          "tpdLevelInd": "N"
+        }
+      ],
+      "cargoPackages": [
+        {
+          "instanceId": "7BQAT6RHO08KB",
+          "packageCount": "1",
+          "packageDescriptionType": "Standard Cargo Package",
+          "packageStyleAltText": "BOXXES",
+          "cargoPackageType": null
+        }
+      ],
+      "equipmentStuffings": [
+        {
+          "instanceId": "9SHBT6RHO08KB",
+          "packageCount": "1",
+          "equipmentId": "T75SS6RHO08KB",
+          "weightKgs": "100.000",
+          "weightLbs": "220.462",
+          "volumeCbm": "100.0000",
+          "measureCbm": "100.0000"
+        }
+      ],
+      "dangerousDetails": []
+    }
+  ]
+},
+ "eventCreatedAt": "2020-04-18T09:27:26.892016700"
+}
